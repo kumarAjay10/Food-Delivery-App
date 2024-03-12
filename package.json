@@ -1,8 +1,11 @@
 {
+  "homepage": "https://kumarAjay10.github.io/Food-delivery-App",
   "name": "epiosde-05-lets-get-hooked",
   "version": "1.0.0",
   "description": "lets get hooked",
   "scripts": {
+     "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
     "test": "jest",
     "start": "parcel index.html",
     "build": "parcel build index.html"
@@ -21,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/kumarAjay10/namaste-React/issues"
   },
-  "homepage": "https://github.com/kumarAjay10/namaste-React#readme",
+ 
   "devDependencies": {
     "parcel": "^2.11.0",
     "postcss": "^8.4.35",
