@@ -4,11 +4,12 @@
   "version": "1.0.0",
   "description": "lets get hooked",
   "scripts": {
-     "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
+   
     "test": "jest",
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
